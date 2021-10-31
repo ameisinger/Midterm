@@ -1,0 +1,91 @@
+/* Created by Aubry Meisinger
+All files for this Website link to this style sheet */
+
+body {
+  font-size: 1.1em;
+  font-family: Garamond, serif;
+  background-image: url("ambackground.jpg");
+}
+
+.center {
+  text-align: center;
+}
+
+.centerImage{
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  color: navy;
+  font-variant: small-caps;
+}
+
+h3 {
+  text-align: center;
+  color: navy;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  }
+
+a:link {
+  text-decoration: none;
+  color: navy;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: navy;
+}
+
+
+p {
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 600px;
+}
+
+/*Table*/
+
+table {
+  width: 60%;
+  margin: 10px auto;
+  border: solid 3px navy;
+  border-collapse: collapse;
+  background-color: grey;
+}
+
+th, td {
+  border: solid 2px maroon;
+}
+
+tr.stripe {
+  color: white;
+  background-color: black;
+}
+
+tr:hover {
+  color: lightblue;
+  background-color: black;
+}
